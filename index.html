@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netlify Form Template</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/denali-icon-font/dist/denali-icon-font.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/denali-css/css/denali.css">
+</head>
+
+<body class="flex justify-content-center w-full">
+
+    <form name="contact" method="POST" data-netlify="true">
+        <div class="input-group m-y-30">
+            <label>Name</label>
+            <div class="input">
+                <input type="text" name="name" placeholder="Enter Name" />
+            </div>
+        </div>
+        <div class="input-group m-y-30">
+            <label>Email</label>
+            <div class="input">
+                <input type="email" name="email" placeholder="Enter Email" />
+            </div>
+        </div>
+        <div class="input-group m-y-30">
+            <label>Message</label>
+            <div class="input">
+                <textarea type="text" name="message" placeholder="Message"></textarea>
+            </div>
+        </div>
+        <div class="input-group m-y-30">
+            <label></label>
+            <div class="input">
+                <button class="button is-solid" type="submit">Send</button>
+            </div>
+        </div>
+    </form>
+
+</body>
+
+</html>
